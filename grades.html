@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assigning Grade to Average</title>
+		<link rel="stylesheet" style type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<!-- student grades: 80, 77, 88, 95, 68;
+			F is below 60; D is up to 70; C is up to 79; B is up to 89; A is up to 100
+			Find the student's average;
+			Find the student's letter grade using "if" statements;
+			console.log the result -->
+		
+		<script>
+			
+			var average = parseInt((80 + 77 + 88 + 95 + 68) / 5);
+			
+			if (average < 60)
+			
+			{
+				console.log ('Your grade is F');
+			}
+			
+			else if (average <= 70)
+			{
+				console.log ('Your grade is D');
+			}
+			
+			else if (average <= 79)
+			{
+				console.log ('Your grade is C');
+			}
+			
+			else if (average <= 89)
+			{
+				console.log ('Your grade is B');
+			}
+			
+			else if (average <= 100)
+			{
+				console.log ('Your grade is A');
+			}
+		
+		</script>
+		
+	</body>
+</html>
